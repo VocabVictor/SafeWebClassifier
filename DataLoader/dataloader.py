@@ -1,4 +1,13 @@
-import torch
+# -*- coding: utf-8 -*-
+# !/usr/bin/python3
+# @Time    : 2023/1/31 15:00
+# @Author  : VocabVictor
+# @Email   : VocabVictor@gmail.com
+# @File    : base_data_loader.py
+# @Software: PyCharm,VsCode
+# @Description: 数据加载器(data_loader)
+# @Support Python Version: 3.5+
+
 from torchdata.datapipes.iter import FileLister
 from Base import BaseDataLoader
 from Config import Config

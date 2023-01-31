@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+# !/usr/bin/python3
+# @Time    : 2023/1/31 15:00
+# @Author  : VocabVictor
+# @Email   : VocabVictor@gmail.com
+# @File    : base_data_loader.py
+# @Software: PyCharm,VsCode
+# @Description: 自己手写的一个pytorch—detaloader的textreader类
+# @Support Python Version: 3.5+
+
 import abc
 from typing import Tuple, IO, Iterator, Union, TypeVar
 from torch.utils.data.dataset import T_co

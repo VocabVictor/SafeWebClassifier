@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+# !/usr/bin/python3
+# @Time    : 2023/1/31 15:00
+# @Author  : VocabVictor
+# @Email   : VocabVictor@gmail.com
+# @File    : base_data_loader.py
+# @Software: PyCharm,VsCode
+# @Description: 训练器基类
+# @Support Python Version: 3.5+
+
 from glob import glob
 from os.path import join
 

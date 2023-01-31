@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+# !/usr/bin/python3
+# @Time    : 2023/1/31 15:00
+# @Author  : VocabVictor
+# @Email   : VocabVictor@gmail.com
+# @File    : base_data_loader.py
+# @Software: PyCharm,VsCode
+# @Description: 日志类
+# @Support Python Version: 3.5+
+
 from logging import basicConfig, INFO, getLogger, StreamHandler, Formatter
 from logging.config import dictConfig
 from os.path import join, exists
